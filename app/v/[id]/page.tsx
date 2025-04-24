@@ -123,7 +123,11 @@ export default async function Video({ params }: PageProps) {
 <meta itemProp="uploadDate" content={`${new Date(
             file.file_created
         ).toISOString()}`} />
-	<section>
+	<section><script
+      dangerouslySetInnerHTML={{
+         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551})`,
+      }}
+   />
         {/* Add JSON-LD to your page */}
         <script
           type="application/ld+json"
@@ -144,7 +148,7 @@ export default async function Video({ params }: PageProps) {
                 allowFullScreen={true}
             ></iframe>
             <Card className="mx-2 mb-8">
-                <CardHeader>
+                <CardHeader><Ins data-height='262' data-width='300' id='1058210'/>
                     <CardTitle className="text-xl md:text-3xl font-bold">
                         {file.file_title}
                     </CardTitle>
