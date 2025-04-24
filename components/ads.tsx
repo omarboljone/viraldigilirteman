@@ -19,12 +19,12 @@ class AdScriptWithoutRouter extends React.Component {
 
   render() {
     return (
-      <div className="container mx-auto text-center" aria-hidden={true}>
+      
         <ins
           id="1052551" data-width="300" data-height="262"
         ></ins>
         <script dangerouslySetInnerHTML={{ __html: '(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551});' }}></script>
-      </div>
+     
     );
   }
 }
