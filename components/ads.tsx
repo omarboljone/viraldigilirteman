@@ -15,5 +15,5 @@ export function AdScript() {
       id="1052551" data-width="300" data-height="262"
     />
   );
-}
+
 export default AdScript;
