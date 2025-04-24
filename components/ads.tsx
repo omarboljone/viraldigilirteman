@@ -16,3 +16,4 @@ export function AdScript() {
     />
   );
 }
+export default AdScript;
