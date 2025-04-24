@@ -1,19 +1,37 @@
-import {useEffect} from 'react';
+'use client';
+import React from 'react';
+import { useRouter } from 'next/navigation';
 
-export function AdScript() {
-  useEffect(() => {
-    try {
-      // @ts-ignore
-      (adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551});
-    } catch (err) {
-      console.error(err);
+class AdScriptWithoutRouter extends React.Component {
+  renderAds() {
+    (adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551});
+  }
+
+  componentDidMount() {
+    this.renderAds();
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.router.asPath !== prevProps.router.asPath) {
+      this.renderAds();
     }
-  }, []);
+  }
 
-  return (
-    <ins
-      id="1052551" data-width="300" data-height="262"
-    />
-  );
+  render() {
+    return (
+      <div className="container mx-auto text-center" aria-hidden={true}>
+        <ins
+          id="1052551" data-width="300" data-height="262"
+        ></ins>
+        <script dangerouslySetInnerHTML={{ __html: '(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551});' }}></script>
+      </div>
+    );
+  }
+}
+
+const AdScript = () => {
+  const router = useRouter();
+  return <AdScriptWithoutRouter router={router} />;
+};
 
 export default AdScript;
