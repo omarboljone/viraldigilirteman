@@ -126,7 +126,7 @@ export default async function Video({ params }: PageProps) {
       dangerouslySetInnerHTML={{
          __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551})`,
       }}
-   />
+   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
         {/* Add JSON-LD to your page */}
         <script
           type="application/ld+json"
