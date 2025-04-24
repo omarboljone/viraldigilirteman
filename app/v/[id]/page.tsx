@@ -3,7 +3,6 @@ import { Metadata, ResolvingMetadata } from "next";
 import { humanDuration, humanSize } from "@/lib/utils";
 import { SITENAME } from "@/lib/constants";
 import Script from "next/script";
-import AdScript from "@/components/ads";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import MessageBox from "@/components/message-box";
@@ -148,7 +147,7 @@ export default async function Video({ params }: PageProps) {
                 allowFullScreen={true}
             ></iframe>
             <Card className="mx-2 mb-8">
-                <CardHeader><AdScript/>
+                <CardHeader><ins id="1052551" data-width="300" data-height="262"></ins>
                     <CardTitle className="text-xl md:text-3xl font-bold">
                         {file.file_title}
                     </CardTitle>
