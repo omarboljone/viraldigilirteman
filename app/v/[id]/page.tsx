@@ -122,11 +122,7 @@ export default async function Video({ params }: PageProps) {
 <meta itemProp="uploadDate" content={`${new Date(
             file.file_created
         ).toISOString()}`} />
-	<section><script
-      dangerouslySetInnerHTML={{
-         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551})`,
-      }}
-   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
+	<section>
         {/* Add JSON-LD to your page */}
         <script
           type="application/ld+json"
@@ -147,7 +143,7 @@ export default async function Video({ params }: PageProps) {
                 allowFullScreen={true}
             ></iframe>
             <Card className="mx-2 mb-8">
-                <CardHeader><ins id="1052551" data-width="300" data-height="262"></ins>
+                <CardHeader>
                     <CardTitle className="text-xl md:text-3xl font-bold">
                         {file.file_title}
                     </CardTitle>
@@ -157,21 +153,9 @@ export default async function Video({ params }: PageProps) {
       }}
    /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1052551" data-width="300" data-height="262"></ins></center>
             <p>{file.file_title} di {SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma Jepang Jav Barat Simontok hub sotwe olmek avtube pijat pure gudang pemerkosaan rumah tobrut inggris ngintip vcs binor yandex update remaja {SITENAME} wiki raja bokeptube full porno viraldigilirtemana simontok {file.file_title} playbokep indobokep xpanasonline indoh janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor {SITENAME} remaja yandex update perselingkuhan wiki raja full com porno indoh Hotbabes Big Tits Family Freeporn Ass Naked Celebs Nude Cam Hot Videos Fucking Free Porno Adult Movies Mom Freesex Nudelive Cams Women Stepmom Hotwife Bigtits Melons Tube Huge Tits Pornos Film x Titshits Pornofilme Nice Natural Fuq Girls Teen Sex Pornstars Tube Dick Jihad</p>
-            </Card><script
-      dangerouslySetInnerHTML={{
-         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1078976})`,
-      }}
-   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="100"></ins><script
-      dangerouslySetInnerHTML={{
-         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1078976})`,
-      }}
-   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="100"></ins>
+            </Card><ins id="1078976" data-width="300" data-height="100"></ins><ins id="1078976" data-width="300" data-height="100"></ins>
             <h2 className="text-2xl font-bold text-center my-4">Related Video {file.file_title}
-            </h2><script
-      dangerouslySetInnerHTML={{
-         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551})`,
-      }}
-   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1052551" data-width="300" data-height="262"></ins>
+            </h2><ins id="1052551" data-width="300" data-height="262"></ins>
             <SearchCardList query={file.file_title.split(" ")[2]} />
 <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
             </div>
