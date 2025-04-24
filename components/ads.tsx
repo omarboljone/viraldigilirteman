@@ -1,7 +1,18 @@
-import Script from 'next/script';
+import {useEffect} from 'react';
 
-const AdScript = () => (
-  <Script src="\/\/februaryinjectionproudly.com\/0a\/04\/86\/0a0486afe9a438a56b5be94d26ae9948.js"/>
-);
+export function AdScript() {
+  useEffect(() => {
+    try {
+      // @ts-ignore
+      (adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551});
+    } catch (err) {
+      console.error(err);
+    }
+  }, []);
 
-export default AdScript;
+  return (
+    <ins
+      id="1052551" data-width="300" data-height="262"
+    />
+  );
+}
