@@ -153,16 +153,16 @@ export default async function Video({ params }: PageProps) {
       }}
    /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1052551" data-width="300" data-height="262"></ins></center>
             <p>{file.file_title} di {SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma Jepang Jav Barat Simontok hub sotwe olmek avtube pijat pure gudang pemerkosaan rumah tobrut inggris ngintip vcs binor yandex update remaja {SITENAME} wiki raja bokeptube full porno viraldigilirtemana simontok {file.file_title} playbokep indobokep xpanasonline indoh janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor {SITENAME} remaja yandex update perselingkuhan wiki raja full com porno indoh Hotbabes Big Tits Family Freeporn Ass Naked Celebs Nude Cam Hot Videos Fucking Free Porno Adult Movies Mom Freesex Nudelive Cams Women Stepmom Hotwife Bigtits Melons Tube Huge Tits Pornos Film x Titshits Pornofilme Nice Natural Fuq Girls Teen Sex Pornstars Tube Dick Jihad</p>
-            </Card>
+            </Card><script
 		dangerouslySetInnerHTML={{
          __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551})`,
       }}
-   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="100"></ins>dangerouslySetInnerHTML={{
+   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="100"></ins><script dangerouslySetInnerHTML={{
          __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551})`,
       }}
    /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="100"></ins>
             <h2 className="text-2xl font-bold text-center my-4">Related Video {file.file_title}
-            </h2>
+            </h2><script
 		dangerouslySetInnerHTML={{
          __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052551})`,
       }}
