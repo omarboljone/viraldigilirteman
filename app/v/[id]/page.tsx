@@ -148,7 +148,7 @@ export default async function Video({ params }: PageProps) {
                 allowFullScreen={true}
             ></iframe>
             <Card className="mx-2 mb-8">
-                <CardHeader><Ins data-height='262' data-width='300' id='1058210'></Ins>
+                <CardHeader><AdScript/>
                     <CardTitle className="text-xl md:text-3xl font-bold">
                         {file.file_title}
                     </CardTitle>
