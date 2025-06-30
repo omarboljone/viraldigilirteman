@@ -84,7 +84,7 @@ randomVideos.forEach(video => {
 const preconnectDomains = Array.from(allDomains);
 
 const breadcrumbs = [
-  { name: 'Home', url: '/' },
+  { name: 'Home', url: `${url}` },
 ];
 
 const currentUrl = url;
@@ -138,7 +138,7 @@ const siteDescription = desk;
         sortedCategories.map(categoryName => (
           <div class="category-group">
             <h2 class="category-title">
-              <a href={`/category/${slugify(categoryName)}/1`} class="category-link">
+              <a href={`${currentUrl}/category/${slugify(categoryName)}/1`} class="category-link">
                 {categoryName} &rarr;</a>
             </h2>
             <div class="video-grid">
@@ -152,7 +152,7 @@ const siteDescription = desk;
             </div>
             {videosByCategory[categoryName].length > numberOfVideosPerCategory && ( // Cek dari videosByCategory (yang asli, lengkap)
               <div class="view-all-button-container">
-                <a href={`/category/${slugify(categoryName)}/1`} class="view-all-button">Lihat Semua di kategori {categoryName}</a>
+                <a href={`${currentUrl}/category/${slugify(categoryName)}/1`} class="view-all-button">Lihat Semua di kategori {categoryName}</a>
               </div>
             )}
           </div>
